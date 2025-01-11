@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mikiyas Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Indie+Flower&family=Mogra&family=Mooli&family=Outfit:wght@100..900&family=Playwrite+DE+Grund:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <span>Mikiyas</span>
+        <button aria-label="nav toggler" type="button" class="nav-toggler">
+          <i class="ri-menu-line" onclick="toggleNavbar()"></i>
+        </button>
+        <ul class="header-links">
+          <li><a class="link" href="index.html">Home</a></li>
+          <li><a class="link" href="hobbies.html">Hobbies</a></li>
+          <li><a class="link" href="education.html">Education</a></li>
+          <li><a class="link" href="About.html">About</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <aside>
+      <i class="ri-close-line" id="nav-close" onclick="toggleNavbar()"></i>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </aside>
+    <main class="contact-main">
+      <form action="/">
+        <h1 class="title">Contact</h1>
+        <div class="input-container">
+          <label for="name"><i class="ri-user-fill"></i></label>
+          <input id="name" type="text" placeholder="Full Name" />
+        </div>
+        <div class="input-container">
+          <label for="email"><i class="ri-mail-fill"></i></label>
+          <input type="text" id="email" placeholder="email" />
+        </div>
+        <div class="input-container">
+          <label for="message"><i class="ri-message-2-line"></i></label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Message..."
+            rows="7"
+          ></textarea>
+        </div>
+        <button type="submit" class="formSubmitBtn">Send</button>
+      </form>
+      <article class="contact-article">
+        <h3>Direct contact @</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>platform</th>
+              <th>Address</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Telegram</td>
+              <td>@ItsMickey7</td>
+            </tr>
+            <tr>
+              <td>Phone</td>
+              <td>0968609574</td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td>mikiyasambachew@gmail.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+    </main>
+    <footer>
+      <div>
+        <ul class="socials">
+          <li>
+            <a href=""><i class="ri-github-fill"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ri-telegram-fill"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ri-facebook-circle-fill"></i></a>
+          </li>
+        </ul>
+        <ul class="footer-links">
+          <li><a class="link" href="index.html">Home</a></li>
+          <li><a class="link" href="hobbies.html">Hobbies</a></li>
+          <li><a class="link" href="education.html">Education</a></li>
+          <li><a class="link" href="About.html">About</a></li>
+          <li><a class="link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <p class="copy">&copy;Mikyas Ambachew</p>
+    </footer>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>

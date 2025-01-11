@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mikiyas Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Indie+Flower&family=Mogra&family=Mooli&family=Outfit:wght@100..900&family=Playwrite+DE+Grund:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <span>Mikiyas</span>
+        <button aria-label="nav toggler" type="button" class="nav-toggler">
+          <i class="ri-menu-line" onclick="toggleNavbar()"></i>
+        </button>
+        <ul class="header-links">
+          <li><a class="link" href="index.html">Home</a></li>
+          <li><a class="active" href="hobbies.html">Hobbies</a></li>
+          <li><a class="link" href="education.html">Education</a></li>
+          <li><a class="link" href="About.html">About</a></li>
+          <li><a class="link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <aside>
+      <i class="ri-close-line" id="nav-close" onclick="toggleNavbar()"></i>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </aside>
+
+    <main>
+      <h1 class="title">My Hobbies</h1>
+      <section class="hobbies-container">
+        <figure>
+          <video
+            src="https://videos.pexels.com/video-files/5495890/5495890-sd_360_640_30fps.mp4"
+            controls
+          ></video>
+          <figcaption>Coding</figcaption>
+        </figure>
+        <figure>
+          <video
+            src="https://videos.pexels.com/video-files/3192198/3192198-sd_640_360_25fps.mp4"
+            controls
+          ></video>
+          <figcaption>Football</figcaption>
+        </figure>
+        <figure>
+          <video
+            src="https://videos.pexels.com/video-files/4935665/4935665-sd_960_506_25fps.mp4"
+            controls
+          ></video>
+          <figcaption>Skating</figcaption>
+        </figure>
+        <figure>
+          <video
+            src="https://videos.pexels.com/video-files/4291570/4291570-sd_640_360_30fps.mp4"
+            controls
+          ></video>
+          <figcaption>Video Games</figcaption>
+        </figure>
+        <figure>
+          <video
+            src="https://media.istockphoto.com/id/1868208819/video/young-man-breaking-colorful-pool-balls-with-cue-on-green-billiards-table-for-start-to-play.mp4?s=mp4-640x640-is&k=20&c=ko8tZKi23waICUoLZRKeUzrCD0ilSNk14Uqd_nQFdeQ="
+            controls
+          ></video>
+          <figcaption>Billards</figcaption>
+        </figure>
+        <figure>
+          <video
+            src="https://videos.pexels.com/video-files/6296296/6296296-sd_360_640_25fps.mp4"
+            controls
+          ></video>
+          <figcaption>Watching MMA</figcaption>
+        </figure>
+        <audio src="images/mindaye.mp3" controls></audio>
+        <span>Favorite sound </span>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <ul class="socials">
+          <li>
+            <a href=""><i class="ri-github-fill"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ri-telegram-fill"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ri-facebook-circle-fill"></i></a>
+          </li>
+        </ul>
+        <ul class="footer-links">
+          <li><a class="link" href="index.html">Home</a></li>
+          <li><a class="link" href="hobbies.html">Hobbies</a></li>
+          <li><a class="link" href="education.html">Education</a></li>
+          <li><a class="link" href="About.html">About</a></li>
+          <li><a class="link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <p class="copy">&copy;Mikyas Ambachew</p>
+    </footer>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mikiyas Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Indie+Flower&family=Mogra&family=Mooli&family=Outfit:wght@100..900&family=Playwrite+DE+Grund:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <span>Mikiyas</span>
+        <button aria-label="nav toggler" type="button" class="nav-toggler">
+          <i class="ri-menu-line" onclick="toggleNavbar()"></i>
+        </button>
+        <ul class="header-links">
+          <li><a class="link" href="index.html">Home</a></li>
+          <li><a class="link" href="hobbies.html">Hobbies</a></li>
+          <li><a class="active" href="education.html">Education</a></li>
+          <li><a class="link" href="About.html">About</a></li>
+          <li><a class="link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <aside>
+      <i class="ri-close-line" id="nav-close" onclick="toggleNavbar()"></i>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </aside>
+    <main>
+      <h1 class="title">Education Background</h1>
+
+      <section class="slider-container">
+        <button class="prevbtn" id="edu-prev" title="go to previous">
+          <i class="ri-arrow-left-s-line"></i>
+        </button>
+        <button class="nextbtn" id="edu-next" title="go to Next">
+          <i class="ri-arrow-right-s-line"></i>
+        </button>
+        <article class="slide" id="edu-slider">
+          <figure class="edu-slide">
+            <img src="images/primary.png" alt="primary school image" />
+            <figcaption>
+              <p class="schoolLevel">Primary School</p>
+              <span class="year">2010-2017G.C</span>
+              <p class="schoolName">Millennium Academy</p>
+            </figcaption>
+          </figure>
+          <figure class="edu-slide">
+            <img src="images/highschool.png" alt="primary school image" />
+            <figcaption>
+              <p class="schoolLevel">Secondary and Preparatory School</p>
+              <span class="year">2018-2021E.C</span>
+              <p class="schoolName">Millennium Academy</p>
+            </figcaption>
+          </figure>
+          <figure class="edu-slide">
+            <img src="images/software.png" alt="primary school image" />
+            <figcaption>
+              <p class="schoolLevel">Bachelor's of Software Engineering</p>
+              <span class="year">2022-NOW</span>
+              <p class="schoolName">Addis Ababa University</p>
+            </figcaption>
+          </figure>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <ul class="socials">
+          <li>
+            <a href=""><i class="ri-github-fill"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ri-telegram-fill"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="ri-facebook-circle-fill"></i></a>
+          </li>
+        </ul>
+        <ul class="footer-links">
+          <li><a class="link" href="index.html">Home</a></li>
+          <li><a class="link" href="hobbies.html">Hobbies</a></li>
+          <li><a class="link" href="education.html">Education</a></li>
+          <li><a class="link" href="About.html">About</a></li>
+          <li><a class="link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <p class="copy">&copy;Mikyas Ambachew</p>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
